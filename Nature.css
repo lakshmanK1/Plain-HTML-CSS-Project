@@ -71,6 +71,35 @@ body{
     border: 5px solid #5F6F94;
     width: 100%;
 }
+
 aside{
     border: 3px solid #5F6F94;
 }
+
+li:nth-child(odd){
+    background-color: #7895B2;
+    color: #D8D8D8;
+}
+li:nth-child(even){
+    background-color: #D8D8D8;
+    color: #7895B2;
+}
+
+a:link{
+    color: #1098ad;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 20px;
+}
+a:hover{
+    color: #182747;
+}
+ .art-link{
+    color: #1098ad;
+    font-family: sans-serif;
+    font-size: 18px;
+ }
+ .art-link:hover{
+    color: #182747;
+ }
